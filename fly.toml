@@ -1,0 +1,27 @@
+app = 'xi-fakeconnect'
+primary_region = 'iad'
+
+[build]
+
+[[services]]
+  internal_port = 54231
+  protocol = "tcp"
+  [[services.ports]]
+    port = 54231
+
+[[services]]
+  internal_port = 54230
+  protocol = "tcp"
+  [[services.ports]]
+    port = 54230
+
+[[services]]
+  internal_port = 54001
+  protocol = "tcp"
+  [[services.ports]]
+    port = 54001
+
+[[vm]]
+  memory = '512mb'
+  cpu_kind = 'shared'
+  cpus = 1
