@@ -1,2 +1,2 @@
 # xi_fakeconnect
-FFXI lobby server that always says yes!
+FFXI lobby server that always says yes to xiloader.
